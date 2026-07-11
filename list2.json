@@ -1,0 +1,528 @@
+{
+  "Cactus": [
+    {
+      "name": "Peyotl",
+      "latin": "Lophophora williamsii",
+      "url": "https://en.wikipedia.org/wiki/Lophophora_williamsii"
+    },
+    {
+      "name": "Lophophora diffusa",
+      "latin": "Lophophora diffusa",
+      "url": "https://en.wikipedia.org/wiki/Lophophora_diffusa"
+    },
+    {
+      "name": "San Pedro",
+      "latin": "Echinopsis pachanoi",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_pachanoi"
+    },
+    {
+      "name": "Peruvian Torch",
+      "latin": "Echinopsis peruviana",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_peruviana"
+    },
+    {
+      "name": "Torche Bolivienne",
+      "latin": "Echinopsis lageniformis",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_lageniformis"
+    },
+    {
+      "name": "Echinopsis macrogona",
+      "latin": "Echinopsis macrogona",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_macrogona"
+    },
+    {
+      "name": "Echinopsis terscheckii",
+      "latin": "Echinopsis terscheckii",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_terscheckii"
+    },
+    {
+      "name": "Echinopsis valida",
+      "latin": "Echinopsis valida",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_valida"
+    },
+    {
+      "name": "Echinopsis tacaquirensis",
+      "latin": "Echinopsis tacaquirensis",
+      "url": "https://en.wikipedia.org/wiki/Echinopsis_tacaquirensis"
+    },
+    {
+      "name": "Aztekium ritteri",
+      "latin": "Aztekium ritteri",
+      "url": "https://en.wikipedia.org/wiki/Aztekium_ritteri"
+    },
+    {
+      "name": "Aztekium hintonii",
+      "latin": "Aztekium hintonii",
+      "url": "https://en.wikipedia.org/wiki/Aztekium_hintonii"
+    },
+    {
+      "name": "Obregonia denegrii",
+      "latin": "Obregonia denegrii",
+      "url": "https://en.wikipedia.org/wiki/Obregonia_denegrii"
+    },
+    {
+      "name": "Pelecyphora aselliformis",
+      "latin": "Pelecyphora aselliformis",
+      "url": "https://en.wikipedia.org/wiki/Pelecyphora_aselliformis"
+    },
+    {
+      "name": "Pelecyphora strobiliformis",
+      "latin": "Pelecyphora strobiliformis",
+      "url": "https://en.wikipedia.org/wiki/Pelecyphora_strobiliformis"
+    },
+    {
+      "name": "Coryphantha compacta",
+      "latin": "Coryphantha compacta",
+      "url": "https://en.wikipedia.org/wiki/Coryphantha_compacta"
+    },
+    {
+      "name": "Coryphantha macromeris",
+      "latin": "Coryphantha macromeris",
+      "url": "https://en.wikipedia.org/wiki/Coryphantha_macromeris"
+    },
+    {
+      "name": "Opuntia basilaris",
+      "latin": "Opuntia basilaris",
+      "url": "https://en.wikipedia.org/wiki/Opuntia_basilaris"
+    },
+    {
+      "name": "Opuntia acanthocarpa",
+      "latin": "Opuntia acanthocarpa",
+      "url": "https://en.wikipedia.org/wiki/Opuntia_acanthocarpa"
+    },
+    {
+      "name": "Cylindropuntia echinocarpa",
+      "latin": "Cylindropuntia echinocarpa",
+      "url": "https://en.wikipedia.org/wiki/Cylindropuntia_echinocarpa"
+    },
+    {
+      "name": "Cylindropuntia spinosior",
+      "latin": "Cylindropuntia spinosior",
+      "url": "https://en.wikipedia.org/wiki/Cylindropuntia_spinosior"
+    }
+  ],
+  "Plants": [
+    {
+      "name": "Yauhtli",
+      "latin": "Tagetes lucida",
+      "url": "https://en.wikipedia.org/wiki/Tagetes_lucida"
+    },
+    {
+      "name": "Malkangini",
+      "latin": "Celastrus paniculatus",
+      "url": "https://en.wikipedia.org/wiki/Celastrus_paniculatus"
+    },
+    {
+      "name": "Yopo",
+      "latin": "Anadenanthera peregrina",
+      "url": "https://en.wikipedia.org/wiki/Anadenanthera_peregrina"
+    },
+    {
+      "name": "Cebil / Vilca",
+      "latin": "Anadenanthera colubrina",
+      "url": "https://en.wikipedia.org/wiki/Anadenanthera_colubrina"
+    },
+    {
+      "name": "Voacanga",
+      "latin": "Voacanga africana",
+      "url": "https://en.wikipedia.org/wiki/Voacanga_africana"
+    },
+    {
+      "name": "Marsh Labrador Tea",
+      "latin": "Ledum palustre",
+      "url": "https://en.wikipedia.org/wiki/Ledum_palustre"
+    },
+    {
+      "name": "Queue de Lion",
+      "latin": "Leonotis leonurus",
+      "url": "https://en.wikipedia.org/wiki/Leonotis_leonurus"
+    },
+    {
+      "name": "Toloache",
+      "latin": "Datura inoxia",
+      "url": "https://en.wikipedia.org/wiki/Datura_inoxia"
+    },
+    {
+      "name": "Stramoine",
+      "latin": "Datura stramonium",
+      "url": "https://en.wikipedia.org/wiki/Datura_stramonium"
+    },
+    {
+      "name": "Datura metel",
+      "latin": "Datura metel",
+      "url": "https://en.wikipedia.org/wiki/Datura_metel"
+    },
+    {
+      "name": "Datura ferox",
+      "latin": "Datura ferox",
+      "url": "https://en.wikipedia.org/wiki/Datura_ferox"
+    },
+    {
+      "name": "Ashwagandha",
+      "latin": "Withania somnifera",
+      "url": "https://en.wikipedia.org/wiki/Withania_somnifera"
+    },
+    {
+      "name": "Passiflore",
+      "latin": "Passiflora incarnata",
+      "url": "https://en.wikipedia.org/wiki/Passiflora_incarnata"
+    },
+    {
+      "name": "Lotus Bleu",
+      "latin": "Nymphaea caerulea",
+      "url": "https://en.wikipedia.org/wiki/Nymphaea_caerulea"
+    },
+    {
+      "name": "Lotus Sacré",
+      "latin": "Nelumbo nucifera",
+      "url": "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+    },
+    {
+      "name": "Ayahuasca",
+      "latin": "Banisteriopsis caapi",
+      "url": "https://en.wikipedia.org/wiki/Banisteriopsis_caapi"
+    },
+    {
+      "name": "Chacruna",
+      "latin": "Psychotria viridis",
+      "url": "https://en.wikipedia.org/wiki/Psychotria_viridis"
+    },
+    {
+      "name": "Chaliponga",
+      "latin": "Diplopterys cabrerana",
+      "url": "https://en.wikipedia.org/wiki/Diplopterys_cabrerana"
+    },
+    {
+      "name": "Mimosa tenuiflora",
+      "latin": "Mimosa tenuiflora",
+      "url": "https://en.wikipedia.org/wiki/Mimosa_tenuiflora"
+    },
+    {
+      "name": "Acacia confusa",
+      "latin": "Acacia confusa",
+      "url": "https://en.wikipedia.org/wiki/Acacia_confusa"
+    },
+    {
+      "name": "Acacia maidenii",
+      "latin": "Acacia maidenii",
+      "url": "https://en.wikipedia.org/wiki/Acacia_maidenii"
+    },
+    {
+      "name": "Acacia obtusifolia",
+      "latin": "Acacia obtusifolia",
+      "url": "https://en.wikipedia.org/wiki/Acacia_obtusifolia"
+    },
+    {
+      "name": "Acacia simplicifolia",
+      "latin": "Acacia simplicifolia",
+      "url": "https://en.wikipedia.org/wiki/Acacia_simplicifolia"
+    },
+    {
+      "name": "Mapacho",
+      "latin": "Nicotiana rustica",
+      "url": "https://en.wikipedia.org/wiki/Nicotiana_rustica"
+    },
+    {
+      "name": "Tabac",
+      "latin": "Nicotiana tabacum",
+      "url": "https://en.wikipedia.org/wiki/Nicotiana_tabacum"
+    },
+    {
+      "name": "Laitue Vireuse",
+      "latin": "Lactuca virosa",
+      "url": "https://en.wikipedia.org/wiki/Lactuca_virosa"
+    },
+    {
+      "name": "Salvia divinorum",
+      "latin": "Salvia divinorum",
+      "url": "https://en.wikipedia.org/wiki/Salvia_divinorum"
+    },
+    {
+      "name": "Sinicuichi",
+      "latin": "Heimia salicifolia",
+      "url": "https://en.wikipedia.org/wiki/Heimia_salicifolia"
+    },
+    {
+      "name": "Yerba Maté",
+      "latin": "Ilex paraguariensis",
+      "url": "https://en.wikipedia.org/wiki/Ilex_paraguariensis"
+    },
+    {
+      "name": "Guayusa",
+      "latin": "Ilex guayusa",
+      "url": "https://en.wikipedia.org/wiki/Ilex_guayusa"
+    },
+    {
+      "name": "Belladone",
+      "latin": "Atropa belladonna",
+      "url": "https://en.wikipedia.org/wiki/Atropa_belladonna"
+    },
+    {
+      "name": "Mandragore",
+      "latin": "Mandragora officinarum",
+      "url": "https://en.wikipedia.org/wiki/Mandragora_officinarum"
+    },
+    {
+      "name": "Jusquiame",
+      "latin": "Hyoscyamus niger",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger"
+    },
+    {
+      "name": "Armoise Blanche",
+      "latin": "Artemisia ludoviciana",
+      "url": "https://en.wikipedia.org/wiki/Artemisia_ludoviciana"
+    },
+    {
+      "name": "Armoise Commune",
+      "latin": "Artemisia vulgaris",
+      "url": "https://en.wikipedia.org/wiki/Artemisia_vulgaris"
+    },
+    {
+      "name": "Silène du Cap (Dream Root)",
+      "latin": "Silene capensis",
+      "url": "https://en.wikipedia.org/wiki/Silene_capensis"
+    },
+    {
+      "name": "Calea zacatechichi",
+      "latin": "Calea ternifolia",
+      "url": "https://en.wikipedia.org/wiki/Calea_ternifolia"
+    },
+    {
+      "name": "Coleus blumei",
+      "latin": "Plectranthus scutellarioides",
+      "url": "https://en.wikipedia.org/wiki/Plectranthus_scutellarioides"
+    },
+    {
+      "name": "Orpin Rose",
+      "latin": "Rhodiola rosea",
+      "url": "https://en.wikipedia.org/wiki/Rhodiola_rosea"
+    },
+    {
+      "name": "Rue de Syrie",
+      "latin": "Peganum harmala",
+      "url": "https://en.wikipedia.org/wiki/Peganum_harmala"
+    },
+    {
+      "name": "Brunfelsia",
+      "latin": "Brunfelsia grandiflora",
+      "url": "https://en.wikipedia.org/wiki/Brunfelsia_grandiflora"
+    },
+    {
+      "name": "Pavot Somnifère",
+      "latin": "Papaver somniferum",
+      "url": "https://en.wikipedia.org/wiki/Papaver_somniferum"
+    },
+    {
+      "name": "Kanna",
+      "latin": "Sceletium tortuosum",
+      "url": "https://en.wikipedia.org/wiki/Sceletium_tortuosum"
+    },
+    {
+      "name": "Iboga",
+      "latin": "Tabernanthe iboga",
+      "url": "https://en.wikipedia.org/wiki/Tabernanthe_iboga"
+    },
+    {
+      "name": "Khat",
+      "latin": "Catha edulis",
+      "url": "https://en.wikipedia.org/wiki/Catha_edulis"
+    },
+    {
+      "name": "Éphédra",
+      "latin": "Ephedra sinica",
+      "url": "https://en.wikipedia.org/wiki/Ephedra_sinica"
+    },
+    {
+      "name": "Éphédra viridis",
+      "latin": "Ephedra viridis",
+      "url": "https://en.wikipedia.org/wiki/Ephedra_viridis"
+    },
+    {
+      "name": "Kratom",
+      "latin": "Mitragyna speciosa",
+      "url": "https://en.wikipedia.org/wiki/Mitragyna_speciosa"
+    },
+    {
+      "name": "Liane d’Argent",
+      "latin": "Argyreia nervosa",
+      "url": "https://en.wikipedia.org/wiki/Argyreia_nervosa"
+    },
+    {
+      "name": "Morning Glory",
+      "latin": "Ipomoea tricolor",
+      "url": "https://en.wikipedia.org/wiki/Ipomoea_tricolor"
+    },
+    {
+      "name": "Volubilis",
+      "latin": "Ipomoea purpurea",
+      "url": "https://en.wikipedia.org/wiki/Ipomoea_purpurea"
+    },
+    {
+      "name": "Coca",
+      "latin": "Erythroxylum coca",
+      "url": "https://en.wikipedia.org/wiki/Erythroxylum_coca"
+    },
+    {
+      "name": "Guarana",
+      "latin": "Paullinia cupana",
+      "url": "https://en.wikipedia.org/wiki/Paullinia_cupana"
+    },
+    {
+      "name": "Cannabis",
+      "latin": "Cannabis sativa / indica",
+      "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    }
+  ],
+  "Mushrooms": [
+    {
+      "name": "Golden Teacher",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "B+",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Penis Envy",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Albino A+",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Mazatapec",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Ecuador",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Cambodia",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Amazonian",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Huautla",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "McKennaii",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Transkei",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Z-Strain",
+      "latin": "Psilocybe cubensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cubensis"
+    },
+    {
+      "name": "Liberty Cap",
+      "latin": "Psilocybe semilanceata",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_semilanceata"
+    },
+    {
+      "name": "Wavy Cap",
+      "latin": "Psilocybe cyanescens",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_cyanescens"
+    },
+    {
+      "name": "Flying Saucer",
+      "latin": "Psilocybe azurescens",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_azurescens"
+    },
+    {
+      "name": "Psilocybe mexicana",
+      "latin": "Psilocybe mexicana",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_mexicana"
+    },
+    {
+      "name": "Psilocybe tampanensis",
+      "latin": "Psilocybe tampanensis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_tampanensis"
+    },
+    {
+      "name": "Psilocybe atlantis",
+      "latin": "Psilocybe atlantis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_atlantis"
+    },
+    {
+      "name": "Psilocybe hoogshagenii",
+      "latin": "Psilocybe hoogshagenii",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_hoogshagenii"
+    },
+    {
+      "name": "Psilocybe caerulipes",
+      "latin": "Psilocybe caerulipes",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_caerulipes"
+    },
+    {
+      "name": "Psilocybe stuntzii",
+      "latin": "Psilocybe stuntzii",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_stuntzii"
+    },
+    {
+      "name": "Psilocybe baeocystis",
+      "latin": "Psilocybe baeocystis",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_baeocystis"
+    },
+    {
+      "name": "Psilocybe weilii",
+      "latin": "Psilocybe weilii",
+      "url": "https://en.wikipedia.org/wiki/Psilocybe_weilii"
+    },
+    {
+      "name": "Copelandia / Blue Meanies",
+      "latin": "Panaeolus cyanescens",
+      "url": "https://en.wikipedia.org/wiki/Panaeolus_cyanescens"
+    },
+    {
+      "name": "Panaeolus tropicalis",
+      "latin": "Panaeolus tropicalis",
+      "url": "https://en.wikipedia.org/wiki/Panaeolus_tropicalis"
+    },
+    {
+      "name": "Gymnopilus luteofolius",
+      "latin": "Gymnopilus luteofolius",
+      "url": "https://en.wikipedia.org/wiki/Gymnopilus_luteofolius"
+    },
+    {
+      "name": "Gymnopilus junonius",
+      "latin": "Gymnopilus junonius",
+      "url": "https://en.wikipedia.org/wiki/Gymnopilus_junonius"
+    },
+    {
+      "name": "Conocybe cyanopus",
+      "latin": "Conocybe cyanopus",
+      "url": "https://en.wikipedia.org/wiki/Conocybe_cyanopus"
+    },
+    {
+      "name": "Pluteus salicinus",
+      "latin": "Pluteus salicinus",
+      "url": "https://en.wikipedia.org/wiki/Pluteus_salicinus"
+    },
+    {
+      "name": "Inocybe aeruginascens",
+      "latin": "Inocybe aeruginascens",
+      "url": "https://en.wikipedia.org/wiki/Inocybe_aeruginascens"
+    }
+  ]
+}

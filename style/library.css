@@ -12,7 +12,6 @@ body {
        url('/fonts/monument-extended-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
  a {
@@ -199,7 +198,7 @@ overflow-x: hidden;
 }
 
 .second-layer h1 {
-  font-family: helvetica; font-weight: bold; 
+  font-family: "Grotesk"; font-weight: bold; 
   font-size: max(4vh, 4vw);
   position: absolute; 
   left: 50%; top: 50%;
@@ -273,32 +272,33 @@ overflow-x: hidden;
 /*///////////////////////////////////////////////////////////////////*/
 
 .footbar { 
-  position: fixed;
-  height: 40pt;
-  width: 100vw;
-  bottom: 0;
-  background-color: #3c3c3b;
-  border-top: solid #e0c940 2pt;
-  z-index: 300;
-}
-
-.footbar p {
-  z-index: 111;
-  color: #d9d9d9;
-  font-family: helvetica;
-  font-style: bold;
-  font-size: 25pt;
-  margin-top: 6pt; 
-  margin-left: 7pt;
-
-}
-
-.footbar-left span {
-  font-style: italic;
-  font-weight: 100;
-  opacity: 50%;
-}
-
+	position: fixed;
+	height: 40pt;
+	width: 100vw;
+	bottom: 0;
+	background-color: #3c3c3b;
+	border-top: solid #e0c940 2pt;
+	z-index: 300;
+  }
+  
+  .footbar p {
+	z-index: 111;
+	color: #d9d9d9;
+	font-family: "Grotesk";
+	font-style: bold;
+	font-size: 25pt;
+	margin-top: 6pt; 
+	margin-left: 7pt;
+  
+  }
+  
+  .footbar-left span {
+	font-family: "GroteskThin";
+	font-style: italic;
+	font-weight: 100;
+	opacity: 50%;
+  }
+  
 
 
 /*///////////////////////////////////////////////////////////////////*/

@@ -1,33 +1,26 @@
 @font-face {
   font-family: "Grotesk";
-  src: url("../fonts/NeueHaasDisplayBlack.ttf") format("truetype");
-  font-weight: 900;
+  src: url("/fonts/NeueHaasDisplayBlack.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
-
 @font-face {
   font-family: "GroteskThin";
-  src: url("../fonts/NeueHaasDisplayRoman.ttf") format("truetype");
-  font-weight: 400;
+  src: url("/fonts/NeueHaasDisplayRoman.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
-
 @font-face {
   font-family: "GroteskXThin";
-  src: url("../fonts/NeueHaasDisplayXXThinItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
+  src: url("/fonts/NeueHaasDisplayXXThinItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
   font-family: "GroteskXThin";
-  src: url("../fonts/NeueHaasDisplayXThinItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
+  src: url("/fonts/NeueHaasDisplayXThinItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -888,6 +881,7 @@ overflow-x: hidden;
 
   body {
     min-height: 100svh;
+    overflow: hidden;
     background: #696767;
   }
 

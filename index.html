@@ -1,94 +1,137 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<html>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <link rel="stylesheet" type="text/css"	href="./style/library.css"/>
-        
-        <title>Psychic Garden</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style/style.css"
+    />
 
-    </head>
+    <title>Psychic Garden</title>
+  </head>
 
-<body>
-
-    <script type="script" src="./js/script.js"></script>
-
-<!--LAYERS_____________________________________-->
-
-    <div class="first-layer" >
+  <body>
+    <main class="home">
+      <!-- Couche principale -->
+      <section class="first-layer">
         <div class="img-container">
-            <img src="./assets/logos/psychic-garden-logo.svg" alt="logo" class="img-logo">
-           
+          <img
+            src="./assets/logos/psychic-garden-logo3.svg"
+            alt="Psychic Garden"
+            class="img-logo"
+          />
         </div>
-    </div>    
-    <div class="container-name1">
-        <p class="name">Peyote<br><span>Lophora Williamsii</span><p class="number">1</p></p>
-    </div>
-    <div class="container-name2">
-        <p class="name">Copelandia<br><span>Psilocybe Cubensis</span><p class="number">2</p></p>
-    </div>
-    <div class="container-name3">
-        <p class="name">Chacruna<br><span>Psychotria Veridis</span><p class="number">3</p></p>
-    </div>
-    
-    
-     <div class="library-btn" ><a href="library.html">Library</a></div>
+      </section>
 
-<!--_____________________________________-->
+      <!-- Noms flottants : desktop uniquement -->
+      <div class="plant-labels">
+        <div class="container-name1">
+          <p class="name-index">
+            Peyote
+            <br />
+            <span>Lophora Williamsii</span>
+          </p>
 
-    <div class="second-layer" aria-hidden="true" data-hero>
+          <p class="number">1</p>
+        </div>
+
+        <div class="container-name2">
+          <p class="name-index">
+            Copelandia
+            <br />
+            <span>Psilocybe Cubensis</span>
+          </p>
+
+          <p class="number">2</p>
+        </div>
+
+        <div class="container-name3">
+          <p class="name-index">
+            Chacruna
+            <br />
+            <span>Psychotria Viridis</span>
+          </p>
+
+          <p class="number">3</p>
+        </div>
+      </div>
+
+      <!-- Bouton -->
+      <div class="library-btn">
+        <a href="library.html">Library</a>
+      </div>
+
+      <!-- Couche interactive : desktop uniquement -->
+      <section
+        class="second-layer"
+        aria-hidden="true"
+        data-hero
+      >
         <h1>Psychic Garden</h1>
-        <img src="./assets/illus/illustration-01.svg" alt="illustration" class="illu1">
-        <img src="./assets/illus/illustration-02.svg" alt="illustration" class="illu2">
-        <img src="./assets/illus/illustration-03.svg" alt="illustration" class="illu3">
 
-        <div class="mention">
-            <p class="mention-logo">Psychic Garden</p>
-            <p class="mention-text">WWW: <span>Enieme Studio</span> </p>
-        </div>
-    </div>
-<!--FOOTBAR_____________________________________-->
+        <img
+          src="./assets/illus/illustration-01.svg"
+          alt=""
+          class="illu1"
+        />
 
-    <div class="footbar">
-        <p class="footbar-left">
-            Psychic Garden 
-            <span>*Online encyclopedia of sacred plants.*</span>
-        </p>
-        <p class="footbar-right">
-            Psychic Garden 
-            *<span>Online encyclopedia of sacred plants.</span>*
-        </p>
-    </div>
+        <img
+          src="./assets/illus/illustration-02.svg"
+          alt=""
+          class="illu2"
+        />
 
-<!--_____________________________________-->
+        <img
+          src="./assets/illus/illustration-03.svg"
+          alt=""
+          class="illu3"
+        />
+      </section>
+    </main>
 
-<script>
-    const hero = document.querySelector('[data-hero]')
+    <!-- Footbar -->
+    <footer class="footbar">
+      <p class="footbar-left">
+        Psychic Garden
+        <span> Online encyclopedia of sacred plants.</span>
+      </p>
+    </footer>
 
-window.addEventListener('mousemove', (e) => {
-const { clientX, clientY } = e
-const x = Math.round((clientX / window.innerWidth) * 100)
-const y = Math.round((clientY / window.innerHeight) * 100)
+    <script src="./js/script.js"></script>
 
-hero.style.setProperty('--x', `${x}%`)
-hero.style.setProperty('--y', `${y}%`)
-})
+    <script>
+      const hero = document.querySelector("[data-hero]");
+      const pointerCanHover = window.matchMedia(
+        "(hover: hover) and (pointer: fine)"
+      );
 
+      function updateHeroMask(event) {
+        if (!hero || !pointerCanHover.matches) {
+          return;
+        }
 
-</script>
+        const x = Math.round(
+          (event.clientX / window.innerWidth) * 100
+        );
 
-    
+        const y = Math.round(
+          (event.clientY / window.innerHeight) * 100
+        );
 
-<!--_____________________________________-->
+        hero.style.setProperty("--x", `${x}%`);
+        hero.style.setProperty("--y", `${y}%`);
+      }
 
-
-
-</body>
-
+      if (pointerCanHover.matches) {
+        window.addEventListener("mousemove", updateHeroMask);
+      }
+    </script>
+  </body>
 </html>
-
-
-
-

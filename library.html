@@ -10,141 +10,50 @@
          
 
     </head>
+    
+    <!-- Juste avant </body> -->
+<script>
+  // ... (colle ici renderCatalogFromJSON)
+
+  fetch("list2.json")  // adapte le chemin si besoin
+    .then(r => r.json())
+    .then(json => {
+      renderCatalogFromJSON(json, ".container");
+    })
+    .catch(err => console.error("JSON load error:", err));
+</script>
+
 
 <body>
 
-<!--JAVASCRIPT_____________________________________-->
 
 <div class="scroll-container">
-  <img src="./assets/logos/psychic-garden-logo.svg" alt="logo">
+  <img src="./assets/logos/psychic-garden-logo.svg" alt="logo" class="logo-scroll">
+  <div class="dotscroll">
+    <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot1">
+    <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot2">
+    <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot3">
+  </div>
 </div>
-  
-<!--_____________________________________-->
 
 
 
-
-
-<!--_____________________________________-->
 
 <div class="navbar"><div class="nav-txt"><p>Psychic Garden</p> <a href="index.html">Home</a></div>  </div>
 <div class="background"></div>
 
 <!--_____________________________________-->
   
-<div class="container">
-  <div class="txt-cont" id="background-sticky">
-    <p class="sticky-list">Cactus</p>
-    <p class="name">Peyotl <span>Lophora Williamsii</span> </p>
-    <p class="name">San Pedro <span>Echinopsis Pachanoi</span> </p>
-    <p class="name">Torche Bolivienne <span>Echinopsis Lageniformis</span> </p>
-    <p class="name">Cactus Aztèque <span>Aztekium Ritteri</span> </p>
-    
-  </div>
-  <div class="txt-cont" id="background-sticky">
-    <p class="sticky-list">Plants</p>
-    <p class="name">Yauhtli <span>Tagète Lucida</span> </p>
-    <p class="name">Malkangini <span>Celastrus Paniculatus</span> </p>
-    <p class="name">Yopo <span>Anadenanthera Peregrina</span> </p>
-    <p class="name">Voacanga <span>Africana</span> </p>
-    <p class="name">Marsh Labrador Tea <span>Ledum Palustre</span> </p>
-    <p class="name">Queue de Lion <span>Leonotis Leonorus</span> </p>
-    <p class="name">Piloselle <span>Hieracium Pilosella</span> </p>
-    <p class="name">Toloache <span>Datura Inoxia</span> </p>
-    <p class="name">Stramoine <span>Datura Stramonium</span> </p>
-    <p class="name">Ashwagandha <span>Withania Somnifera</span> </p>
-    <p class="name">Passiflore Officinale <span>Passiflora Incarnata</span> </p>
-    <p class="name">Lotus Bleu <span>Nymphaea Caerulea</span> </p>
-    <p class="name">Passiflore Officinale <span>Passiflora Incarnata</span> </p>
-    <p class="name">Ayahuasca <span>Banisteriopsis Caapi</span> </p>
-    <p class="name">Psychotria Viridis <span>Chacruna</span> </p>
-    <p class="name">Laitue Vireuse <span>Lactuca Virosa</span> </p>
-    <p class="name">Salvia <span>Salvia Divinorium</span> </p>
-    <p class="name">Sinicuichi <span>Heima Salicififolia</span> </p>
-    <p class="name">Yerba Mate <span>Ilex Paraguariensis</span> </p>
-    <p class="name">Belladone <span>Atropa Belladonna</span> </p>
-    <p class="name">Armoise Blanche <span>Artemisia Ludoviciana</span> </p>
-    <p class="name">Jusquiame Noire <span>Hyoscyamus Niger</span> </p>
-    <p class="name">Shang Lu <span>Phytolacca Acinosa</span> </p>
-    <p class="name">Orpin Rose <span>Rhodiola Rosea</span> </p>
-    <p class="name">Xhosa Dream Herb <span>Silene Capensis</span> </p>
-    <p class="name">Croix de Malte <span>Tribulus Terrestris</span> </p>
-    <p class="name">Millerpertuis Perforé <span>Hypericum Perforatum</span> </p>
-    <p class="name">Rue de Syrie <span>Peganum Harmala</span> </p>
-    <p class="name">Brunfelsia Chricaspi <span>Brunfelsia Grandiflora</span> </p>
-    <p class="name">Pavot <span>Papaver Somniferum</span> </p>
-    <p class="name">Kanna <span>Sceletium Tortuosum</span> </p>
-    <p class="name">Iboga <span>Tabernanthe</span> </p>
-    <p class="name">Mandragora <span>Officinarum Autumnalis</span> </p>
-    <p class="name">Guayusa <span></span> </p>
-    <p class="name">Khat <span></span> </p>
-    <p class="name">Thé Vert Mormon <span>Ephedra Viridis</span> </p>
-    <p class="name">Ma Huang <span>Ephedra Sinica</span> </p>
-    <p class="name">Kratom <span>Mitrigyna Speciosa</span> </p>
-    <p class="name">Liane d'Argent <span>Argyreia Nervosa</span> </p>
-    <p class="name">Morning Glory <span>Opomea Tricolor</span> </p>
-    <p class="name">Volubilis <span>Ipomoea Purpurea</span> </p>
-  </div>
-  <div class="txt-cont" id="background-sticky">
-    <p class="sticky-list">Mushrooms</p>
-    <p class="name">Alacabenzi <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Albino A+ <span>Psilocybe Cubensis</span> </p>
-    <p class="name">B+ Cubensis <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Blue Meanie <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Cambodia <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Costa Rican <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Burma <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Golden Teacher <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Mazatapec <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Penis Envy <span>Psilocybe Cubensis</span> </p>
-    <p class="name">PES Amazonia <span>Psilocybe Cubensis</span> </p>
-    <p class="name">PF Classic <span>Psilocybe Cubensis</span> </p>
-    <p class="name">PF Redsdpore <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Orissa India <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Z-Strain <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Amazonian <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Argentina <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Australian <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Brasil <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Ecuador <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Golden Mammoth <span>Psilocybe Cubensis</span> </p>
-    <p class="name">F+ <span>Psilocybe Cubensis</span> </p>
-    <p class="name">McKennai <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Nepal Chitwan <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Orissa India <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Gulf Coast <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Huautla <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Mysteri Fatass <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Plantasia <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Thai Pink Buffalo KS <span>Psilocybe Cubensis</span> </p>
-    <p class="name">White Treasure Coast <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Wollogong <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Tulum <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Transkei <span>Psilocybe Cubensis</span> </p>
-    <p class="name">Syzygy <span>Psilocybe Cubensis</span> </p>
-    
-    
-  </div>
+<div class="container"></div>
 
-</div>
-   <!--FOOTBAR_____________________________________-->
+
+<!--FOOTBAR_____________________________________-->
 
    <div class="footbar">
     <p class="footbar-left">
         Psychic Garden 
-        <span>*Online encyclopedia of sacred plants.*</span>
+        <span>Online encyclopedia of sacred plants.</span>
     </p>
-    <p class="footbar-right">
-        Psychic Garden 
-        *<span>Online encyclopedia of sacred plants.</span>*
-    </p>
-</div>
-<!--_____________________________________-->
-
-<div class="dotscroll">
-  <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot1">
-  <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot2">
-  <img src="./assets/svg/dots-scroll.svg" alt="dots" id="dot3">
 </div>
 
 
@@ -178,13 +87,59 @@
     dot1.style.marginTop = value * 0.50 + "px";
     dot2.style.marginBottom = value * 0.50 + "px";
     dot3.style.marginTop = value * 0.50 + "px";
-
-    
    
   })
 
 </script>
-  
+
+<script>
+  // Rend chaque item en <a class="name" target="_blank">
+  function renderCatalogFromJSON(data, containerSel = ".container") {
+    const container = document.querySelector(containerSel);
+    if (!container) return;
+
+    container.innerHTML = "";
+    const order = Object.keys(data); // ou ["Cactus","Plants","Mushrooms"]
+
+    order.forEach(category => {
+      const col = document.createElement("div");
+      col.className = "txt-cont";
+      col.id = "background-sticky";
+
+      const title = document.createElement("p");
+      title.className = "sticky-list";
+      title.textContent = category;
+      col.appendChild(title);
+
+      (data[category] || []).forEach(item => {
+        const a = document.createElement("a");
+        a.className = "name";
+        a.target = "_blank";
+        a.rel = "noopener";
+
+        // URL depuis le JSON (sinon fallback Wikipédia)
+        const guess = (item.latin || item.name || "").trim().replace(/\s+/g, "_");
+        a.href = item.url || ("https://en.wikipedia.org/wiki/" + encodeURIComponent(guess));
+
+        // Texte + latin en <span> (même présentation que tes <p>)
+        a.append(document.createTextNode(item.name || ""));
+        a.append(" ");
+        const span = document.createElement("span");
+        span.textContent = item.latin || "";
+        a.appendChild(span);
+
+        col.appendChild(a);
+      });
+
+      container.appendChild(col);
+    });
+  }
+
+  // Exemple d’usage avec ton JSON complet :
+  // fetch("psychic-garden-full.json").then(r => r.json()).then(renderCatalogFromJSON);
+</script>
+
+
 
 </body>
 
